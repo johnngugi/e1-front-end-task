@@ -3,3 +3,72 @@
   margin: 0;
   padding: 0;
 }
+.medium-3 {
+  background: #2c5987;
+  color: #528cc7;
+  height: 100vh;
+}
+.medium-3 ul {
+  padding-top: 30px;
+}
+#left {
+  float: left;
+  line-height: 2.5em;
+  margin-right: 10px;
+}
+.container {
+    padding-left: 10%;
+}
+
+/*
+  ============================================
+  Styles
+  ============================================
+*/
+
+h1 {
+  padding-left: 8%;
+}
+
+/*
+  ============================================
+  Icons
+  ============================================
+*/
+
+i {
+  color: white;
+  padding-left: 10px;
+}
+
+/*
+  ============================================
+  Navigation
+  ============================================
+*/
+
+.top-bar {
+  background: white;
+  margin: 0;
+}
+.top-bar .menu{
+  background: white;
+  color: black;
+}
+a {
+  color: #262626;
+}
+.top-bar {
+  padding-left: 100px;
+  margin: 0 auto;
+}
+
+/*
+  ============================================
+  Images
+  ============================================
+*/
+
+img {
+  margin: 10px auto;
+}

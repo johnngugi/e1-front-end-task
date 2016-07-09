@@ -1,6 +1,5 @@
-.menu {
-  display: inline-block;
-}
-.align-right {
-  float: right;
+.row,
+.columns {
+  margin: 0;
+  padding: 0;
 }

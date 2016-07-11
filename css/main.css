@@ -3,19 +3,22 @@
   margin-left: -20px;
   padding: 0;
 }
-.left {
-  background: #003399;
-  width: 20%;
-  height: 115vh;
-  float: left;
-  margin-right: 0;
-  padding-right: 0;
+.row {
+  width: 100%;
 }
 .menu-text {
   padding-right: 10%;
 }
 .container {
-    padding-left: 15%;
+
+    text-align: center;
+}
+.container a {
+  display: inline-block;
+}
+#name {
+  background: #333;
+  border-radius: 20%;
 }
 
 /*
@@ -25,7 +28,10 @@
 */
 
 h1 {
-  padding-left: 15%;
+  padding-left: 9%;
+}
+li {
+  list-style-type: none;
 }
 
 /*
@@ -37,6 +43,36 @@ h1 {
 i {
   color: white;
   padding-left: 10px;
+}
+
+/*
+  ============================================
+  Sidebar
+  ============================================
+*/
+
+.left {
+  background: #24248f;
+  width: 20%;
+  height: 125vh;
+  float: left;
+  margin-right: 0;
+  padding-right: 0;
+}
+.left li a {
+  color: grey;
+}
+.left ul {
+  padding-top: 20%;
+  font-size: 25px;
+}
+.upgrade {
+  border: 1px solid #1a7599;
+  color: white;
+  margin-top: 130%;
+  margin-left: 15%;
+  padding-left: 10px;
+  width: 60%;
 }
 
 /*
@@ -57,7 +93,7 @@ a {
   color: #262626;
 }
 .top-bar {
-  padding-left: 100px;
+  padding-left: 10%;
   margin: 0 auto;
 }
 
@@ -69,4 +105,15 @@ a {
 
 img {
   margin: 10px auto;
+}
+
+/*
+  ============================================
+  Inline
+  ============================================
+*/
+
+.inline {
+  display: inline-block;
+  vertical-align: middle;
 }
